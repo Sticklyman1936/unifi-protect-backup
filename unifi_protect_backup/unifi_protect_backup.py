@@ -3,7 +3,7 @@ import asyncio
 import logging
 import pathlib
 import shutil
-from typing import Callable, Dict, Optional
+from typing import Callable, Optional
 
 import aiocron
 from pyunifiprotect import ProtectApiClient
