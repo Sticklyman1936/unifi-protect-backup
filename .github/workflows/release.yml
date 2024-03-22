@@ -66,7 +66,7 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ghcr.io/${{ github.repository }}:${{ steps.tag_name.outputs.current_version }}, ghcr.io/${{ github.repository }}:latest
+          tags: ghcr.io/sticklyman1936/unifi-protect-backup:${{ steps.tag_name.outputs.current_version }}, ghcr.io/Sticklyman1936/unifi-protect-backup:latest
 
       - name: create github release
         id: create_release
